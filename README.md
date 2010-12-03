@@ -30,6 +30,6 @@ The same applies for the row class all the col classes. Make sure you use the el
 
 To make a mobile stylesheet, simply:
 
-@import "1140/mobile";
+@import "eleven40/mobile";
 
 This will include the mobile styles that will overload the default screen styles.
