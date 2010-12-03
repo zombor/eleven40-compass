@@ -28,6 +28,8 @@ The same applies for the row class all the col classes. Make sure you use the el
 
 ### Mobile
 
-Make sure you define a $mobile variable in your sass sheet.
+To make a mobile stylesheet, simply:
 
-$mobile = true; will turn on mobile mode for the stylesheet, and $mobile = false; will turn it off. This variable must be defined.
+@import "1140/mobile";
+
+This will include the mobile styles that will overload the default screen styles.

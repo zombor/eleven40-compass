@@ -1,4 +1,4 @@
-@import "mobile";
+$mobile: false;
 
 @mixin eleven40-container {
 	@if $mobile == true
@@ -86,7 +86,6 @@
 
 @mixin eleven40-twelvecol {
 	@include eleven40-subcolumn(100%);
-	float: left;
 }
 
 @mixin eleven40-last {

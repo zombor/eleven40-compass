@@ -1,0 +1,12 @@
+.header {
+	@include eleven40-row;
+}
+
+.menu {
+	@include eleven40-fourcol;
+}
+
+.body {
+	@include eleven40-eightcol;
+	@include eleven40-last;
+}
