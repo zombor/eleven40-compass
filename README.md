@@ -12,7 +12,7 @@ This extension is not quite in line with the original, but will be soon. It curr
 
 This extension provides mixins to do what the classes in the original did. In general, you can follow this format:
 
-@include eleven40-<classname>
+@include eleven40-classname
 
 For example:
 
