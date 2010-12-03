@@ -1,9 +1,9 @@
-@include mobile;
+@import "mobile";
 
-@mixin 1140-container {
+@mixin eleven40-container {
 	@if $mobile == true
 	{
-		@include 1140-mobile-full;
+		@include eleven40-mobile-full;
 	}
 	@else
 	{
@@ -12,10 +12,10 @@
 	}
 }
 
-@mixin 1140-row {
+@mixin eleven40-row {
 	@if $mobile == true
 	{
-		@include 1140-mobile-full;
+		@include eleven40-mobile-full;
 	}
 	@else
 	{
@@ -27,10 +27,10 @@
 }
 
 // $default-width should include the %
-@mixin 1140-subcolumn($default-width) {
+@mixin eleven40-subcolumn($default-width) {
 	@if $mobile == true
 	{
-		@include 1140-mobile-column;
+		@include eleven40-mobile-column;
 	}
 	@else
 	{
@@ -40,55 +40,55 @@
 	}
 }
 
-@mixin 1140-onecol {
-	@include 1140-subcolumn(4.85%);
+@mixin eleven40-onecol {
+	@include eleven40-subcolumn(4.85%);
 }
 
-@mixin 1140-twocol {
-	@include 1140-subcolumn(13.5%);
+@mixin eleven40-twocol {
+	@include eleven40-subcolumn(13.5%);
 }
 
-@mixin 1140-threecol {
-	@include 1140-subcolumn(22.15%);
+@mixin eleven40-threecol {
+	@include eleven40-subcolumn(22.15%);
 }
 
-@mixin 1140-fourcol {
-	@include 1140-subcolumn(30.8%);
+@mixin eleven40-fourcol {
+	@include eleven40-subcolumn(30.8%);
 }
 
-@mixin 1140-fivecol {
-	@include 1140-subcolumn(39.45%);
+@mixin eleven40-fivecol {
+	@include eleven40-subcolumn(39.45%);
 }
 
-@mixin 1140-sixcol {
-	@include 1140-subcolumn(48.1%);
+@mixin eleven40-sixcol {
+	@include eleven40-subcolumn(48.1%);
 }
 
-@mixin 1140-sevencol {
-	@include 1140-subcolumn(56.75%);
+@mixin eleven40-sevencol {
+	@include eleven40-subcolumn(56.75%);
 }
 
-@mixin 1140-eightcol {
-	@include 1140-subcolumn(65.4%);
+@mixin eleven40-eightcol {
+	@include eleven40-subcolumn(65.4%);
 }
 
-@mixin 1140-ninecol {
-	@include 1140-subcolumn(74.05%);
+@mixin eleven40-ninecol {
+	@include eleven40-subcolumn(74.05%);
 }
 
-@mixin 1140-tencol {
-	@include 1140-subcolumn(82.7%);
+@mixin eleven40-tencol {
+	@include eleven40-subcolumn(82.7%);
 }
 
-@mixin 1140-elevencol {
-	@include 1140-subcolumn(91.35%);
+@mixin eleven40-elevencol {
+	@include eleven40-subcolumn(91.35%);
 }
 
-@mixin 1140-twelvecol {
-	@include 1140-subcolumn(100%);
+@mixin eleven40-twelvecol {
+	@include eleven40-subcolumn(100%);
 	float: left;
 }
 
-@mixin 1140-last {
+@mixin eleven40-last {
 	margin-right: 0px;
 }
