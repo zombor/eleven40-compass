@@ -25,3 +25,9 @@ replaces the
 css class.
 
 The same applies for the row class all the col classes. Make sure you use the eleven40-last mixin for the last column, just like in the css class version.
+
+### Mobile
+
+Make sure you define a $mobile variable in your sass sheet.
+
+$mobile = true; will turn on mobile mode for the stylesheet, and $mobile = false; will turn it off. This variable must be defined.
