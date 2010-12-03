@@ -1,0 +1,43 @@
+@mixin eleven40-onecol {
+	@include eleven40-subcolumn(4.7%);
+}
+
+@mixin eleven40-twocol {
+	@include eleven40-subcolumn(13.2%);
+}
+
+@mixin eleven40-threecol {
+	@include eleven40-subcolumn(22.05%);
+}
+
+@mixin eleven40-fourcol {
+	@include eleven40-subcolumn(30.6%);
+}
+
+@mixin eleven40-fivecol {
+	@include eleven40-subcolumn(39%);
+}
+
+@mixin eleven40-sixcol {
+	@include eleven40-subcolumn(48%);
+}
+
+@mixin eleven40-sevencol {
+	@include eleven40-subcolumn(56.75%);
+}
+
+@mixin eleven40-eightcol {
+	@include eleven40-subcolumn(61.6%);
+}
+
+@mixin eleven40-ninecol {
+	@include eleven40-subcolumn(74.05%);
+}
+
+@mixin eleven40-tencol {
+	@include eleven40-subcolumn(82%);
+}
+
+@mixin eleven40-elevencol {
+	@include eleven40-subcolumn(91.35%);
+}
