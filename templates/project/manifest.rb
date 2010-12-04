@@ -1,5 +1,6 @@
 description "eleven40 compass extension"
 
+stylesheet 'partials/_layout.scss'
 stylesheet 'screen.scss',      :media => 'screen'
 stylesheet 'ie.scss',          :media => 'screen', :condition => "lt IE 8"
 stylesheet 'mobile.scss',      :media => 'handheld, only screen and (max-width: 767px)'
