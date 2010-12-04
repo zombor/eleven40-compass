@@ -33,3 +33,7 @@ To make a mobile stylesheet, simply:
 @import "eleven40/mobile";
 
 This will include the mobile styles that will overload the default screen styles.
+
+## Install
+
+gem install eleven40
